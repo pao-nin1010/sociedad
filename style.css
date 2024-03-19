@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #c7caf1;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+header {
+    background: url('Imagenes/porta.jpg') no-repeat center center/cover;
+    color: #7568cb;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.navbar ul li a {
+    color: #a555e2;
+    padding: 10px 15px;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar ul li a:hover {
+    color: #4db8ff;
+}
+
+.hero .head-text {
+    text-align: center;
+    max-width: 700px;
+}
+
+.hero h1 {
+    margin-bottom: 20px;
+    font-size: 3rem;
+}
+
+.btn-1 {
+    display: inline-block;
+    background-color: #007bff;
+    color: #f2f2f4;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-1:hover {
+    background-color: #0056b3;
+}
+/* Estilo Global y Contenedor */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+/* Cabecera y Menú */
+header {
+    background: url('Imagenes/porta.jpg') no-repeat center center/cover;
+    color: #fff;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+/* Estilo de las Pestañas */
+.navbar ul li a {
+    color: #946fe3;
+    padding: 10px 15px;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+    background-color: rgba(255, 255, 255, 0.2); /* Fondo semi-transparente */
+    margin: 0 5px; /* Separación entre pestañas */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.navbar ul li a:hover {
+    color: #4db8ff;
+    background-color: rgba(255, 255, 255, 0.4); /* Fondo más visible al hacer hover */
+}
+/* Estilo Global y Contenedor */
+html {
+    font-size: 16px; /* Tamaño base para el documento */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+/* Cabecera y Menú */
+header {
+    background: url('Imagenes/porta.jpg') no-repeat center center/cover;
+    color: #fff;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+/* Ajustes de Tamaño de Letra y Estilo de Pestañas */
+.navbar ul li a {
+    color: #fff;
+    padding: 12px 18px; /* Aumento del padding para mejor visualización */
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 5px;
+    border-radius: 5px;
+    font-size: 1.25rem; /* Tamaño de letra más grande */
+}
+
+/* Estilos adicionales para otros elementos de texto */
+h1, h2, h3, p {
+    margin: 20px 0;
+    font-size: 1.5rem; /* Tamaño base para títulos */
+}
+
+h1 {
+    font-size: 2.5rem; /* Tamaño más grande para el título principal */
+}
+
+p {
+    font-size: 1rem; /* Tamaño adecuado para párrafos, ajustable según necesidad */
+}
+
+/* Ajustes para las imágenes */
+.photo-gallery img {
+    width: 100%; /* Asegura que las imágenes sean responsivas */
+    max-width: 400px; /* Máximo tamaño de las imágenes */
+    height: auto; /* Mantiene la proporción de las imágenes */
+    margin: 10px; /* Separación entre imágenes */
+}
+
+
